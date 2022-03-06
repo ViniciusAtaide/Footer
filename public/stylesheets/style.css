@@ -1,12 +1,49 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+footer{
+  background-color: #23FF61;
+  color: black;
+  height: auto;
+  width: 100vw;
+  font-family:'Open Sans', sans-serif; 
+  font-family: 'Roboto', sans-serif;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
 }
 
-h5{
-  font-family:'Open Sans', sans-serif;
+.footer-icon{
+  height: auto;
+}
+
+.footer-text p
+{  margin-left: 200px;
+  font-size: 10px;
+  text-align: left;
+  box-sizing: border-box;
+
+}
+.footer-contact{
+  list-style: none;
+  text-decoration: none;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+
+}
+
+.midias{
+  display: flex;
+  list-style: none;
+  gap: 10px;
 }
