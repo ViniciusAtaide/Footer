@@ -13,15 +13,18 @@ header{
     height: 75px;
    
   }
-
-nav{  text-decoration: none;
-
-}
+  a{
+    text-decoration: none;
+    color: black;
+    
+  }
 
 .interactions{
   color: black;
   list-style: none;
-  text-decoration: none;
   display: flex;
-  text-align: center;
+  font-size: 18px;
+  gap: 50px;
+  text-decoration: none; 
+  
 }
