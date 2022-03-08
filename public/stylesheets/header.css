@@ -11,6 +11,8 @@ header{
     display: flex;
     align-items: center;
     height: 75px;
+    justify-content: space-between;
+    padding: 10px;
    
   }
   a{
@@ -19,7 +21,7 @@ header{
     
   }
 
-.interactions{
+.itens{
   color: black;
   list-style: none;
   display: flex;
@@ -27,4 +29,8 @@ header{
   gap: 50px;
   text-decoration: none; 
   
+}
+
+.itens li{
+  margin: 50px;
 }
